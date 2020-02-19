@@ -11,12 +11,13 @@
         <description>-</description>
         <atom:link href="http://0.0.0.0:9021/podcasts/9228276d-1f39-4ff4-af33-86c511cf1401/rss/" rel="self"></atom:link>
         <language>ru-RU</language>
-        <lastBuildDate>Wed, 19 Feb 2020 10:49:01 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 19 Feb 2020 11:27:49 +0000</lastBuildDate>
         <author>-</author>
         <copyright>-</copyright>
         <itunes:summary>-</itunes:summary>
         <itunes:author>-</itunes:author>
         <itunes:explicit>No</itunes:explicit>
+        <itunes:type>episodic</itunes:type>
         <itunes:owner>
             <itunes:name>-</itunes:name>
             <itunes:email></itunes:email>
@@ -27,6 +28,8 @@
             <title>My Podcast</title>
             <link>http://test.example.com</link>
         </image>
+        <itunes:category text="Arts"></itunes:category>
+        <itunes:category text="Sports"></itunes:category>
         <item>
             <title>Тест 1</title>
             <link>http://0.0.0.0:9021dadasdasdasdas</link>
