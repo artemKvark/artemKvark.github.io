@@ -6,35 +6,76 @@
     xmlns:dc="http://purl.org/dc/elements/1.1/" 
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
     <channel>
-        <title>My Podcast</title>
-        <link>http://0.0.0.0:9021/podcasts/9228276d-1f39-4ff4-af33-86c511cf1401/rss/</link>
-        <description>-</description>
+        <title>Это тестовый подкаст</title>
+        <link>http://test.example.com</link>
+        <description>Описание тестового подкаста</description>
         <atom:link href="http://0.0.0.0:9021/podcasts/9228276d-1f39-4ff4-af33-86c511cf1401/rss/" rel="self"></atom:link>
         <language>ru-RU</language>
-        <lastBuildDate>Wed, 19 Feb 2020 11:27:49 +0000</lastBuildDate>
-        <author>-</author>
-        <copyright>-</copyright>
-        <itunes:summary>-</itunes:summary>
-        <itunes:author>-</itunes:author>
-        <itunes:explicit>No</itunes:explicit>
+        <lastBuildDate>Wed, 26 Feb 2020 11:42:21 +0000</lastBuildDate>
+        <author>Artem</author>
+        <copyright>Artem</copyright>
+        <itunes:summary>Описание тестового подкаста</itunes:summary>
+        <itunes:author>Artem</itunes:author>
+        <itunes:explicit>Yes</itunes:explicit>
         <itunes:type>episodic</itunes:type>
         <itunes:owner>
-            <itunes:name>-</itunes:name>
+            <itunes:name>Artem</itunes:name>
             <itunes:email></itunes:email>
         </itunes:owner>
-        <itunes:image href="http://0.0.0.0:9021/media/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2019-12-23_%D0%B2_15.53.12.png"></itunes:image>
-        <image>
-            <url>http://0.0.0.0:9021/media/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2019-12-23_%D0%B2_15.53.12.png</url>
-            <title>My Podcast</title>
-            <link>http://test.example.com</link>
-        </image>
         <itunes:category text="Arts"></itunes:category>
         <itunes:category text="Sports"></itunes:category>
+        <itunes:category text="Politics"></itunes:category>
         <item>
-            <title>Тест 1</title>
-            <link>http://0.0.0.0:9021dadasdasdasdas</link>
-            <description>Тест 1</description>
-            <guid>http://0.0.0.0:9021dadasdasdasdas</guid>
+            <title>Озвученная статья 1</title>
+            <link>http://0.0.0.0:9021/articles/choose/v-trekh-regionakh-novorozhdennym-srazu-kupyat-zhile/</link>
+            <description>-</description>
+            <pubDate>Wed, 19 Feb 2020 08:41:26 +0000</pubDate>
+            <guid>http://0.0.0.0:9021/articles/choose/v-trekh-regionakh-novorozhdennym-srazu-kupyat-zhile/</guid>
+            <enclosure length="0" type="audio/mpeg" url="http://0.0.0.0:9021/media/uploads/audio/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2019-12-23_%D0%B2_10.04.58.png"></enclosure>
+            <dc:creator>Artem</dc:creator>
+            <itunes:summary>-</itunes:summary>
+            <itunes:duration>None</itunes:duration>
+            <itunes:explicit>Yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <item>
+            <title>Озвученная статья 3</title>
+            <link>http://0.0.0.0:9021/articles/choose/v-trekh-regionakh-novorozhdennym-srazu-kupyat-2hile/</link>
+            <description>-</description>
+            <pubDate>Wed, 26 Feb 2020 11:41:50 +0000</pubDate>
+            <guid>http://0.0.0.0:9021/articles/choose/v-trekh-regionakh-novorozhdennym-srazu-kupyat-2hile/</guid>
+            <enclosure length="0" type="audio/mpeg" url="http://0.0.0.0:9021/media/uploads/audio/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2019-12-24_%D0%B2_10.35.39_K0RW8uY.png"></enclosure>
+            <dc:creator>Artem</dc:creator>
+            <itunes:summary>-</itunes:summary>
+            <itunes:duration>None</itunes:duration>
+            <itunes:explicit>Yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <item>
+            <title>Озвученная статья 2</title>
+            <link>http://0.0.0.0:9021/articles/choose/v-trekh-regionakh-novorozhdennym-srazu-kupyat-zhile2/</link>
+            <description>-</description>
+            <pubDate>Wed, 19 Feb 2020 12:06:03 +0000</pubDate>
+            <guid>http://0.0.0.0:9021/articles/choose/v-trekh-regionakh-novorozhdennym-srazu-kupyat-zhile2/</guid>
+            <enclosure length="0" type="audio/mpeg" url="http://0.0.0.0:9021/media/uploads/audio/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2019-12-24_%D0%B2_10.35.39.png"></enclosure>
+            <dc:creator>Artem</dc:creator>
+            <itunes:summary>-</itunes:summary>
+            <itunes:duration>None</itunes:duration>
+            <itunes:explicit>Yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <item>
+            <title>Озвученная статья 4</title>
+            <link>http://0.0.0.0:9021/articles/choose/v-trekh-regionakh-no2orozhdennym-srazu-kupyat-zhile/</link>
+            <description>-</description>
+            <pubDate>Wed, 26 Feb 2020 11:42:21 +0000</pubDate>
+            <guid>http://0.0.0.0:9021/articles/choose/v-trekh-regionakh-no2orozhdennym-srazu-kupyat-zhile/</guid>
+            <enclosure length="0" type="audio/mpeg" url="http://0.0.0.0:9021/media/uploads/audio/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2019-12-25_%D0%B2_9.22.48.png"></enclosure>
+            <dc:creator>Artem</dc:creator>
+            <itunes:summary>-</itunes:summary>
+            <itunes:duration>None</itunes:duration>
+            <itunes:explicit>Yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
         </item>
     </channel>
 </rss>
